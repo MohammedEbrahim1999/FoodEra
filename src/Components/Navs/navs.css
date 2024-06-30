@@ -1,0 +1,27 @@
+.custom-navbar{
+    background-color: #FFF;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: fixed !important;
+    z-index: 12;
+}
+.custom-navbar a{
+    color: #A82C48;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#call{
+    background-color: #A82C48;
+    color: #FFF;
+    width: 150px;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+#call:hover{
+    border: 4px solid #A82C48;
+    background-color: #FFF;
+    color: #000;
+}

@@ -1,0 +1,44 @@
+.freq{
+    margin-top: 25px;
+    padding: 25px 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+.freq h2.ask {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    color: #43121D;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 25px 0;
+}
+.freq .second{
+    text-align: left;
+    padding: 25px;
+}
+.freq .second div{
+    margin-bottom: 25px;
+}
+.freq .second h3{
+    font-size: 22px;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+}
+.freq span{
+    color: #F9846C;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.freq .second div p{
+    color: #333;
+    margin-top: 15px;
+    font-family: "Tajawal", sans-serif;
+}

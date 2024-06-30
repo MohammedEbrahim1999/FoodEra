@@ -1,0 +1,95 @@
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0;
+}
+.blogs h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    color: #A82D49;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    width: 100%;
+}
+.blogs p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    color: #333;
+    font-family: "Tajawal", sans-serif;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #bab9b9;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.blogs .box img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.blogs .box h5{
+    color: #A82D49;
+    font-family: "Tajawal", sans-serif;
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.blogs .box span{
+    color: #444;
+    font-family: "Tajawal", sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    letter-spacing: 1.5px;
+}
+.blogs .box h6,
+.blogs .box .deleted{
+    color: #A82D49;
+    font-family: "Tajawal", sans-serif;
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.blogs .box .deleted{
+    margin-left: 15px;
+    text-decoration: line-through;
+}
+.blogs button{
+    background-color: #A82D49;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+.blogs button a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    transition: .9s ease-in-out;
+    font-family: "Tajawal", sans-serif;
+}
+.blogs button:hover{
+    background-color: #FFF;
+    border: 2px solid #A82D49;
+}
+.blogs button:hover a{
+    color: #A82D49;
+}

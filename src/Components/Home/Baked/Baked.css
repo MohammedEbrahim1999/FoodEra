@@ -1,0 +1,65 @@
+.baked {
+    background: url('/imgs/Baked.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 40px 0;
+    text-align: left;
+    position: relative;
+    margin: 25px 0;
+    background-attachment: fixed;
+}
+.baked .overlay{
+    background: #000;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.baked div.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.baked h2{
+    color: #FFF;
+    z-index: 5;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.baked button{
+    background-color: #A82D49;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    z-index: 2;
+    margin-top: 20px !important;
+}
+.baked button a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    transition: .9s ease-in-out;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bolder;
+}
+.baked button:hover{
+    background-color: transparent;
+    border: 2px solid #A82D49;
+}
+.baked button:hover a{
+    color: #A82D49;
+}

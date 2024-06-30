@@ -1,0 +1,60 @@
+header{
+    background: url('/imgs/header.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 25px;
+}
+header .row{
+    margin: 150px 0px;
+}
+header h2{
+    color: #43121D;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "Tajawal", sans-serif;
+    font-weight: bold;
+    width: 80%;
+}
+header p{
+    color: #333;
+    font-family: "Tajawal", sans-serif;
+    margin: 15px 0;
+    width: 60%;
+}
+button{
+    width: 140px;
+    height: 50px;
+    margin: 20px 15px 20px 0px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .1s;
+}
+.order{
+    background-color: #A82D49;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+}
+.learn{
+    color: #000;
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+button i {
+    margin-left: 8px;
+}
+.order:hover{
+    background-color: #FFF;
+    color: #A82D49;
+    border: 2px solid #A82D49;
+}
+.learn:hover{
+    color: #A82D49;
+    border: 2px solid #A82D49;
+}

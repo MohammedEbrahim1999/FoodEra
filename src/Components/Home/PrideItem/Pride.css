@@ -1,0 +1,55 @@
+.pride{
+    background-color: transparent;
+    max-width: 100%;
+    padding: 25px 0;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.pride h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    width: 70%;
+    color: #43121D;
+    line-height: 50px;
+    margin-top: 45px;
+}
+.pride p{
+    font-size: 16px;
+    width: 65%;
+    line-height: 28px;
+    color: #333;
+    font-family: "Tajawal", sans-serif;
+    margin-top: 15px;
+}
+.pride button{
+    background-color: #A82D49;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+}
+.pride button a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    transition: .2s ease-in-out;
+    font-family: "Tajawal", sans-serif;
+}
+.pride button:hover{
+    background-color: #FFF;
+    border: 2px solid #A82D49;
+}
+button:hover a{
+    color: #A82D49;
+}

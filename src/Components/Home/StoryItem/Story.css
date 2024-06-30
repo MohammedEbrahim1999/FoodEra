@@ -1,0 +1,45 @@
+.story{
+        background: url('/imgs/story.jpg') center no-repeat;
+        background-size: cover;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        height: auto;
+        overflow: hidden;
+        padding: 30px 0;
+}
+.story .row{
+    margin: 50px 0;
+}
+.story h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    color: #A82D49;
+    line-height: 50px;
+    margin-top: 45px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+}
+.story p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    color: #333;
+    font-family: "Tajawal", sans-serif;
+    margin-top: 25px;
+}
+.story a{
+    color: #000;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: "Tajawal", sans-serif;
+    transition: .1s ease-in-out;
+}
+.story a i {
+    margin-right: 8px;
+}
+.story a:hover{
+    color: #A82D49;
+}

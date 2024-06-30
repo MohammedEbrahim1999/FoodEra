@@ -1,0 +1,62 @@
+.contact{
+    margin-top: 25px;
+    padding: 25px 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+.contact h2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    color: #43121D;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Tajawal", sans-serif;
+    width: 100%;
+    padding: 25px 0;
+}
+.contact p{
+    color: #333;
+}
+.contact input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #E5E5E5;
+    width: 250px;
+    margin-right: 25px;
+}
+.contact button{
+    background-color: #A82D49;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    z-index: 2;
+    margin-top: 20px !important;
+    color: #FFF;
+}
+.contact button:hover{
+    background-color: transparent;
+    border: 2px solid #A82D49;
+    color: #A82D49;
+}
+.contact .done-animation{
+    height: 55px;
+    display: inline-block;
+}
+.contact .contact-form{
+    margin-top: -80px;
+}
+.contact .contact-animation{
+    height: 550px;
+}
+.contact .submit-message{
+    font-size: 35px;
+}

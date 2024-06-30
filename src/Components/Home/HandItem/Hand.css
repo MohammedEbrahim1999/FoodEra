@@ -1,0 +1,67 @@
+.hand{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+}
+.hand h2{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Tajawal", sans-serif;
+    margin: 10px 0;
+    width: 70%;
+    color: #43121D;
+    line-height: 50px;
+    margin-top: 25px;
+}
+.hand p{
+    font-size: 16px;
+    width: 65%;
+    line-height: 28px;
+    color: #333;
+    font-family: "Tajawal", sans-serif;
+    margin-top: 25px;
+}
+.hand ul{
+    padding: 0;
+}
+.hand ul li{
+    color: #333;
+    list-style: none;
+    margin-top: 10px;
+}
+.hand ul li i {
+    margin-right: 8px;
+    color: #A82D49;
+    font-size: 18px;
+}
+.hand button{
+    background-color: #A82D49;
+    border: none;
+    border-radius: 10px;
+    transition: .1s;
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+.hand button a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    transition: .2s ease-in-out;
+    font-family: "Tajawal", sans-serif;
+}
+.hand button:hover{
+    background-color: #FFF;
+    border: 2px solid #A82D49;
+}
+button:hover a{
+    color: #A82D49;
+}
+.hand img{
+    max-width: 100%;
+}
