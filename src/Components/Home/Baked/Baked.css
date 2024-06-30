@@ -63,3 +63,8 @@
 .baked button:hover a{
     color: #A82D49;
 }
+@media (max-width: 767px) {
+    .baked {
+        background-attachment: scroll; 
+    }
+}
